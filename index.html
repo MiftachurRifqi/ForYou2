@@ -71,7 +71,7 @@ body{background-image: url("gambar/love.jpg");background-repeat: no-repeat;backg
        
        async function fnama(){
            var { value: nama } = await swals.fire({
-               title: 'Masukkan Nama Kamu', input: 'text', allowOutsideClick: false, showCancelButton: false,
+               title: 'Masukkan Nama Panggilan Kamu', input: 'text', allowOutsideClick: false, showCancelButton: false,
            });
            if(nama && nama.length < 11){
            	window.nama = nama;kamu.innerHTML = nama;
