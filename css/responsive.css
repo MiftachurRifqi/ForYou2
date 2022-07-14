@@ -1,0 +1,7 @@
+@media (min-width: 300px) and (max-width: 640px) {
+    .bodyblur {
+        padding: 10px;
+        text-align: center;
+        margin-top: 60%;
+    }
+}
